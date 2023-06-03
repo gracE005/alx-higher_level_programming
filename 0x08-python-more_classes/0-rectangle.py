@@ -2,6 +2,6 @@
 """
     This module contains a single class
 """
-  class Rectangle:
+ class Rectangle:
     """Defines a rectangle"""
     pass
