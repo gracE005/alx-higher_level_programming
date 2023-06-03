@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    A module that constitutes a single class
+    A module that constitutes a single class of a Rectangle
 """
 
 
@@ -18,7 +18,7 @@ class Rectangle:
 
     @property
     def width(self):
-        """Return width of the rectangle """
+        """Return the width value of the rectangle """
         return self.__width
 
     @width.setter
@@ -32,7 +32,7 @@ class Rectangle:
 
     @property
     def height(self):
-        """Return height of the rectangle."""
+        """Return the height value of the rectangle."""
         return self.__height
 
     @height.setter
@@ -45,11 +45,11 @@ class Rectangle:
         self.__height = value
 
     def area(self):
-        """Return the area of the Rectangle."""
+        """Return the area value of the Rectangle."""
         return (self.__width * self.__height)
 
-    def circumference(self):
-        """Return the circumference of the Rectangle."""
+    def periphery (self):
+        """Return the periphery of the Rectangle."""
         if self.__width == 0 or self.__height == 0:
             return (0)
         return (2 * (self.__width + self.__height))
