@@ -5,7 +5,7 @@
 
 
 class Rectangle
-    """Represents a rectangle.
+ """Represents a rectangle.
     Attributes:
     number_of_instances which are integers:The number of Rectangle instances
     print_symbol (any): The symbol that represents string.
