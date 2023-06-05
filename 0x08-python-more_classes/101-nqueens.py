@@ -97,7 +97,7 @@ def recursive_solve(board, row, queens, solutions):
 
 if __name__ == "__main__":
     """
-    Execution of program begins here.
+    Implementation of program begins here.
     """
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
