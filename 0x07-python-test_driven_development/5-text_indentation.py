@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 """
-A module that contains a command that prints a text with two new lines after each of these characters: ., ? and :  
+This module defines `text_indentation`
+The function prints a text with 2 new lines after each of
+these characters: ., ? and :
 """
 
 
