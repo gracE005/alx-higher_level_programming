@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-A module that contains a command that prints a text with 2 new lines after each of these characters: ., ? and : 
+A module that contains a command that prints a text with two new lines after each of these characters: ., ? and :  
 """
 
 
 def text_indentation(text):
-    """indent and separate text into "?", ":", "." with two new lines after each other
+    """splits a text into lines along "?", ":", "." followed by 2 new lines
     Args:
-        text: a string
+        text: input string
     Returns:
         No return
     Raises:
