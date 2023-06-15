@@ -1,13 +1,12 @@
 #!/usr/bin/python3
 """
-    Contains a single function that handles text indenting
+    A module that contains  a command that prints a text with two new lines after each of these characters: ., ? and :
 """
 
 
 def text_indentation(text):
     """
-        prints a text with 2 new lines after each
-        of these characters: ., ? and :
+        denoting specific characters: ., ? and : while indenting on two new lines 
     """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
