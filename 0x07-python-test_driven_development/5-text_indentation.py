@@ -6,7 +6,7 @@
 
 def text_indentation(text):
     """
-        denoting specific characters: ., ? and : while indenting on two new lines 
+        prints specific characters: ., ? and : while indenting on two new lines 
     """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
